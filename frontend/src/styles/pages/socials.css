@@ -1,0 +1,21 @@
+.infoHeader{
+    padding: 20vh 120px 50px;
+}
+.infoHeader h1{
+    font-size: 6rem;
+    font-weight: 700;
+}
+.linepart{
+    height: 210px;
+    width: 5px;
+    background: black;
+    margin: 0 50px;
+}
+#social-list{
+    display: flex;
+    margin-left: 150px;
+}
+.wrap-socialInfo{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,105 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+    border: none;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+.headerMain{
+    font-size: 5rem;
+    font-weight: 600;
+}
+
+.subHeader{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.headerLogo{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.text{
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+button{
+    padding: 10px  21px;
+    background: black;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: white
+}
+.full-bttn{
+    width: 100%;
+}
+.LoadingBG{
+    position: fixed;
+    background: white;
+    color: black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000000;
+}
+
+
+/* text */
+.text-width-300{
+    width: 300px;
+}
+.text-width-500{
+    width: 500px;
+}
+.al-text-right{
+    text-align: right;
+}
+/* padding */
+.pad-b-1{
+    padding-bottom: 20px;
+}
+.pad-b-2{
+    padding-bottom: 30px;
+}
+
+/* margin */
+.mar-b-1{
+    margin-bottom: 20px;
+}
+.feeds-acu{
+    width: 90vw;
+    overflow-x: scroll;
+    margin: 40px 100px 50px;
+}
+.feedbox-wrap{
+    display: flex;
+    gap: 40px;
+    width: fit-content;
+}
+
+.feeds{
+    height: 220px;
+    width: 350px;
+    background: black;
+}
+
+
+@media screen and (max-width: 500px) {
+    .headerMain{
+        font-size: 4rem;
+        font-weight: 600;
+    }
+    .text{
+        font-size: 1.2rem;
+        font-weight: 500;
+        line-height: 35px;
+    }
+    
+}

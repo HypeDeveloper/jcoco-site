@@ -1,0 +1,27 @@
+#shop-banner{
+    height: 80vh;
+}
+.overlay{
+    background: rgba(0, 0, 0, 0.144);
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+.shop-info{
+    margin-top: 90px;
+    padding: 0 120px 0;
+    width: 580px;
+}
+#products-shop{
+    margin-top: 190px;
+    padding: 0 140px 0;
+    display: flex;
+    justify-content: center;
+}
+.shop-produs-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 150px;
+    margin: auto;
+    margin-bottom: 200px;
+}
