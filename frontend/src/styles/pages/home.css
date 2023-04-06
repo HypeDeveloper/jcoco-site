@@ -67,11 +67,31 @@ section{
     width: 500px;
 }
 
+
 @media screen and (max-width: 500px) {
     .shopMain_img{
         display: none;
     }
     .shopTop_info {
         padding: 100px 25px 0;
+    }
+    .shopButtom_info {
+        padding: 180px 0 100px;
+    }
+    .youtube-info {
+        width: 300px;
+    }
+    .youtubeSpace {
+        height: 350px;
+        width: 100vw;
+    }
+    .feed-info {
+        padding: 20px 30px 20px;
+        width: 300px;
+    }
+    .feeds-acu {
+        width: 90vw;
+        overflow-x: scroll;
+        margin: 40px 100px 50px;
     }
 }

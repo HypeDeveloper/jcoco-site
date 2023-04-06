@@ -101,5 +101,20 @@ button{
         font-weight: 500;
         line-height: 35px;
     }
-    
+    .text-width-500{
+        width: 300px;
+    }
+    .feedbox-wrap{
+        display: flex;
+        gap: 30px;
+        width: fit-content;
+    }
+    .feeds-acu {
+        margin: 40px 25px 50px;
+    }
+    .feeds{
+        height: 210px;
+        width: 290px;
+        background: black;
+    }
 }

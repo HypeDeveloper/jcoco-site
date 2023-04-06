@@ -100,3 +100,31 @@
     width: 380px;
     background: black;
 }
+
+@media screen and (max-width: 500px) {
+    .wrap-work {
+        display: block;
+        margin: 80px 20px 70px;
+    }
+    .workimg-info {
+       display: none;
+    }
+    #workWith {
+        padding-top: 0px;
+        margin-top: -50px;
+    }
+    .wrap-umu {
+        margin-left: 20px;
+    }
+    .slideInfo {
+        width: 300px;
+    }
+    .aboutImg1, .aboutImg2 {
+        display: none;
+    }
+    .umu-wrap {
+        display: block;
+        justify-content: space-between;
+        zoom: 95%;
+    }
+}
