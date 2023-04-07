@@ -10,3 +10,19 @@
     align-items: center;
     text-align: center;
 }
+
+@media screen and (max-width: 500px) {
+    .StoreImg{
+        height: 250px;
+        width: 300px;
+        background: gray;
+    }
+    .StoreCard{
+        width: 280px;
+        zoom: 94%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}

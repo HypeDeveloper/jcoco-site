@@ -20,7 +20,7 @@ export function MainLoading(){
     return(
         <>
             <div className="LoadingBG" ref={loadingMain}>
-                <h1 className="headerMain">
+                <h1 className="headerMain ">
                     Loading Main 
                 </h1>
             </div>

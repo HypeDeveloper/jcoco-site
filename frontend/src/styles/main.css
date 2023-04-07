@@ -16,7 +16,7 @@
 
 .subHeader{
     font-size: 1.8rem;
-    font-weight: 700;
+    font-weight: 500;
 }
 .headerLogo{
     font-size: 1.8rem;
@@ -43,11 +43,12 @@ button{
     background: white;
     color: black;
     width: 100%;
-    height: 100vh;
+    height: 120vh;
     display: flex;
     align-items: center;
     justify-content: center;
     z-index: 1000000;
+    zoom: 90%;
 }
 
 
@@ -92,6 +93,9 @@ button{
 
 
 @media screen and (max-width: 500px) {
+    body{
+        zoom: 99%;
+    }
     .headerMain{
         font-size: 4rem;
         font-weight: 600;
@@ -116,5 +120,8 @@ button{
         height: 210px;
         width: 290px;
         background: black;
+    }
+    .al-text-right {
+        text-align: left;
     }
 }

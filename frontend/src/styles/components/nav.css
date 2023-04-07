@@ -25,6 +25,12 @@ nav{
     align-items: center;
     padding: 20px 80px;
 }
+.hamBugerMenu{
+    display: none;
+}
+.drop_List{
+    display: none;
+}
 
 /* responsive */
 @media screen and (max-width: 500px) {
@@ -33,5 +39,25 @@ nav{
     }
     .navs{
         display: none;
+    }
+    .hamBugerMenu{
+        display: block;
+        height: 30px;
+        width: 30px;
+        background: black;
+    }
+    .drop_List{
+        display: flex;
+        height: 100vh;
+        background: white;
+        position: fixed;
+        z-index: 99;
+        width: 100%;
+        top :0;
+        color: black;
+        align-items: center;
+        gap: 40px;
+    flex-direction: column;
+    padding-top: 180px;
     }
 }

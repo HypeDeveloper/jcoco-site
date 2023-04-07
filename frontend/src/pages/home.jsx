@@ -1,5 +1,6 @@
 import { StoreCard } from '../components/store'
 import '../styles/pages/home.css'
+import { Link } from "react-router-dom";
 
 export default function Home(){
     return(
@@ -29,7 +30,7 @@ export default function Home(){
                         <p className="text text-width-500 pad-b-2">
                         happily married to the most supportive man and we have 2 beautiful energetic kids together who mean the whole world to me . One is an actual celebrity lol
                         </p>
-                        <button>View Store</button>
+                        <Link to='/shop'><button>View Store</button></Link>
                     </div>
                     <div className="shopButtom_info">
                         <StoreCard/>
