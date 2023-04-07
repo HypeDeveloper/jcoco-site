@@ -19,19 +19,16 @@ export default function Socials(){
                     <div className="linepart"></div>
                     <div className="socialBox">
                         <h1 className="headerMain">
-                            Instergram
+                            Instagram
                         </h1>
                         <h1 className="headerMain">
-                            Instergram
+                            Youtube
                         </h1>
                         <h1 className="headerMain">
-                            Instergram
+                            TikTok
                         </h1>
                         <h1 className="headerMain">
-                            Instergram
-                        </h1>
-                        <h1 className="headerMain">
-                            Instergram
+                            Twitter
                         </h1>
                     </div>
                 </div>

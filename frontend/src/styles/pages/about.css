@@ -101,7 +101,7 @@
     background: black;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .wrap-work {
         display: block;
         margin: 80px 20px 70px;

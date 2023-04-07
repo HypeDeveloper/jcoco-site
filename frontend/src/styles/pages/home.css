@@ -6,6 +6,9 @@ section{
     height: calc(100vh - 10vh);
     background: gray;
 }
+.imgHero img{
+    width: 100%;
+}
 .socials_home{
     background: white;
     display: flex;
@@ -25,12 +28,17 @@ section{
 }
 .shopMain_img{
     position: absolute;
+    overflow: hidden;
     top: -80px;
     height: 700px;
     width: 900px;
     background: black;
-    right: -100px;
+    right: -170px;
+    z-index: -1;
     transform: rotateZ(10deg);
+}
+.shopMain_img img{
+    width: 100%;
 }
 .shopButtom_info{
     padding: 300px 0 100px;
@@ -58,6 +66,10 @@ section{
     margin-bottom: 120px;
     margin-top: 70px;
 }
+.youtubeSpace iframe{
+    width: 100%;
+    height: 100%;
+}
 .buttonHandle{
     margin-top: 30px;
 }
@@ -68,7 +80,7 @@ section{
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .shopMain_img{
         display: none;
     }
@@ -93,5 +105,10 @@ section{
         width: 90vw;
         overflow-x: scroll;
         margin: 40px 100px 50px;
+    }
+    .imgHero img{
+        margin-top: 80px;
+        width: 100%;
+        height: 100%;
     }
 }

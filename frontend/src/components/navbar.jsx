@@ -31,7 +31,7 @@ export default function NavBar(){
                             <Link to={'/umuAsa'}>Umu Asa</Link>
                         </li>
                         <li className="navList">
-                            <Link to={'/shop'}>Shop</Link>
+                            <Link to={'https://paystack.shop/princess-jecoco'}>Shop</Link>
                         </li>
                         <li className="navList">
                             <Link to={'/socials'}>Socials</Link>

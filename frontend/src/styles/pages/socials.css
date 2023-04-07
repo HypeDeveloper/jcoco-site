@@ -20,7 +20,7 @@
     justify-content: center;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 600px){
     .infoHeader h1{
         font-size: 4rem;
         font-weight: 700;
