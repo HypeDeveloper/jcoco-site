@@ -7,7 +7,8 @@ export default function AboutMe() {
         <>
             <section id="umu-about">
                 <div className="mobileImg">
-                    
+                <img src={hero1img} alt="" />
+
                 </div>
                 <div className="aboutImg1">
                     <img src={hero1img} alt="" />
@@ -61,7 +62,7 @@ export default function AboutMe() {
                     </div>
                     <div className="info-vid">
                         <div className="videoMashup">
-                            <iframe src="https://www.youtube.com/embed/u7amIzuw_YU" frameborder="0"></iframe>
+                            <iframe src="https://www.youtube.com/embed/u7amIzuw_YU" frameBorder="0"></iframe>
                         </div>
                     </div>
                 </div>

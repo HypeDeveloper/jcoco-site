@@ -162,6 +162,10 @@
         background: rgb(190, 190, 190);
         width: 100%;
         z-index: -1;
+        overflow: hidden;
+    }
+    .mobileImg img{
+        width: 140%;
 
     }
     .umu-wrap{
