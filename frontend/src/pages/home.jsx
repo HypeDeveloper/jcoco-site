@@ -5,6 +5,10 @@ import { Link } from "react-router-dom";
 import heroImg from '../assets/images/6159DFF7-3339-4F39-A55F-5DC1D7F73227.jpg'
 import shopImg from '../assets/images/1AA4F7F2-C88C-41FA-91C3-F3A977516F8D.jpg'
 
+import store1 from '../assets/images/IMG-20230327-WA0027.jpg'
+import store2 from '../assets/images/IMG-20230327-WA0029.jpg'
+import store3 from '../assets/images/IMG-20230327-WA0032.jpg'
+
 export default function Home(){
     return(
         <>
@@ -37,9 +41,9 @@ export default function Home(){
                         <Link to='https://paystack.shop/princess-jecoco'><button>View Store</button></Link>
                     </div>
                     <div className="shopButtom_info">
-                        <StoreCard/>
-                        <StoreCard/>
-                        <StoreCard/>
+                        <StoreCard img={store1} header='Ogini' dis=' ' to='https://paystack.shop/princess-jecoco?product=ogini-t-shirt-wzjvfe'/>
+                        <StoreCard img={store2} header='Igbo Amaka ' dis=' ' to='https://paystack.shop/princess-jecoco'/>
+                        <StoreCard img={store3} header='Period dot ... ' dis=' ' to='https://paystack.shop/princess-jecoco?product=period-dot-on-capslock-t-shirt-qqcjgi'/>
                     </div>
                 </div>
             </section>

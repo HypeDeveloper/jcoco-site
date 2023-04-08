@@ -1,7 +1,15 @@
 .StoreImg{
     height: 250px;
     width: 250px;
-    background: gray;
+    background: rgb(251, 251, 251);
+    box-shadow: 1px 1px 30px 10px rgba(0, 0, 0, 0.135);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.StoreImg img{
+    zoom: 20%;
 }
 .StoreCard{
     width: 250px;

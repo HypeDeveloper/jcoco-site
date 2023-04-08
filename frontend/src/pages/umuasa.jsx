@@ -1,10 +1,18 @@
 import '../styles/pages/about.css'
+import hero1img from '../assets/images/75B6791F-BA0E-4C81-89CF-4BFE5CF6F17C.jpg'
+import hero2img from '../assets/images/alaye230.jpg'
+import hero3img from '../assets/images/EEE32334-A1C0-4193-9105-B78C90A07408 2.jpg'
 export default function AboutMe() {
     return (
         <>
             <section id="umu-about">
-                <div className="aboutImg1"></div>
-                <div className="aboutImg2"></div>
+                <div className="aboutImg1">
+                    <img src={hero1img} alt="" />
+                </div>
+                <div className="aboutImg2">
+                    <img src={hero2img} alt="" />
+
+                </div>
                 <div className="umu-wrap">
 
                     <div className="text-box">
@@ -50,7 +58,7 @@ export default function AboutMe() {
                     </div>
                     <div className="info-vid">
                         <div className="videoMashup">
-
+                            <iframe src="https://www.youtube.com/embed/u7amIzuw_YU" frameborder="0"></iframe>
                         </div>
                     </div>
                 </div>
@@ -74,7 +82,7 @@ export default function AboutMe() {
                         </p>
                     </div>
                     <div className="workimg-info">
-
+                        <img src={hero3img} alt="" />
                     </div>
                 </div>
             </section>
