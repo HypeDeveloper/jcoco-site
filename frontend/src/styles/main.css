@@ -49,8 +49,16 @@ button{
     justify-content: center;
     z-index: 1000000;
     zoom: 90%;
+    transform: translateY(-20px);
 }
-
+.vi{
+    height: 600px;
+    width: 600px;
+    overflow: hidden;
+}
+.vi img{
+    width: 100%;
+}
 
 /* text */
 .text-width-300{

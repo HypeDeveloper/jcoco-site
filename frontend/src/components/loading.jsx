@@ -1,7 +1,6 @@
 import { useEffect, useRef, useState } from "react"
 
-let LoadedMain = true
-
+import logo from '../assets/images/PJ Logo.png'
 export function MainLoading(){
     const loadingMain = useRef()
     const [loading, setLoading] = useState(true)
@@ -9,7 +8,7 @@ export function MainLoading(){
     useEffect(()=>{
         setTimeout(()=>{
             setLoading(false)
-        }, 1000)
+        }, 1600)
 
         if(!loading){
             loadingMain.current.style.display = 'none'
@@ -20,9 +19,9 @@ export function MainLoading(){
     return(
         <>
             <div className="LoadingBG" ref={loadingMain}>
-                <h1 className="headerMain ">
-                    Loading Main 
-                </h1>
+                <div className="vi">
+                    <img src={logo} alt="" />
+                </div>
             </div>
         </>
     )
