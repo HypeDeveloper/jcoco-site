@@ -3,8 +3,17 @@ section{
     overflow: hidden;
 }
 .imgHero{
-    height: calc(100vh - 10vh);
-    background: gray;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+.moveLink{
+    position: absolute;
+    top: 120px;
+    right: 120px;
+    background: black;
+    height: 180px;
+    width: 180px;
 }
 .imgHero img{
     width: 100%;
@@ -19,8 +28,10 @@ section{
 }
 .socialBoxes{
     height: 30px;
+    display: flex;
+    align-items: center;
     width: 30px;
-    background: black;
+    /* background: black; */
 }
 
 .shopTop_info{
@@ -42,8 +53,11 @@ section{
 }
 .shopButtom_info{
     padding: 300px 0 100px;
+    gap: 100px;
+}
+.shopButtom_info .shopWrap{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     gap: 100px;
 }
 #youtube-hero{
@@ -108,7 +122,21 @@ section{
     }
     .imgHero img{
         margin-top: 80px;
-        width: 100%;
+        width: initial;
+        transform: translateX(-60px);
         height: 100%;
+    }
+    .shopButtom_info{
+        padding: 300px 0 100px;
+        display: block;
+        gap: 100px;
+        width: 300px;
+    }
+    .shopButtom_info .shopWrap{
+        width: 90vw;
+        overflow-x: scroll;
+        display: flex;
+        gap: 70px;
+        padding: 0 30px;
     }
 }

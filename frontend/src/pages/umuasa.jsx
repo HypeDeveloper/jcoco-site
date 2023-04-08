@@ -6,6 +6,9 @@ export default function AboutMe() {
     return (
         <>
             <section id="umu-about">
+                <div className="mobileImg">
+                    
+                </div>
                 <div className="aboutImg1">
                     <img src={hero1img} alt="" />
                 </div>

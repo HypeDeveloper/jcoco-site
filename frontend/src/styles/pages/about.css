@@ -9,6 +9,7 @@
     justify-content: space-between;
     zoom: 95%;
 }
+
 .aboutImg1{
     top: 2800;
     left: -160px;
@@ -153,5 +154,24 @@
     .videoMashup {
         height: 400px;
         width: 100VW;
+    }
+    .mobileImg{
+        position: absolute;
+        top :0;
+        height: 600px;
+        background: rgb(190, 190, 190);
+        width: 100%;
+        z-index: -1;
+
+    }
+    .umu-wrap{
+        display:flex;
+        justify-content: space-between;
+        /* zoom: 95%; */
+        margin-top: 200px;
+    }
+    .umu-wrap .text-box h1{
+        font-size: 6rem;
+        font-weight: 700;
     }
 }

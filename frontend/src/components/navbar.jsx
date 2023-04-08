@@ -50,7 +50,7 @@ export default function NavBar(){
             <div className="drop_List" ref={dropNav}>
                 <Link to={'/'} onClick={handleBuger} className="subHeader">Home</Link>
                 <Link to={'/umuAsa'} onClick={handleBuger} className="subHeader">Umu Asa</Link>
-                <Link to={'/shop'} onClick={handleBuger} className="subHeader">Shop</Link>
+                <Link to={'https://paystack.shop/princess-jecoco'} onClick={handleBuger} className="subHeader">Shop</Link>
                 <Link to={'/socials'} onClick={handleBuger} className="subHeader">Socials</Link>
                 <Link to={'#workWith'} onClick={handleBuger} className="subHeader">Collabs</Link>
             </div>

@@ -1,7 +1,6 @@
 .navs{
     display: flex;
     gap: 40px;
-    zoom: 90%;
 }
 .navList a{
     opacity: .6;

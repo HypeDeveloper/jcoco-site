@@ -2,6 +2,8 @@ import { StoreCard } from '../components/store'
 import '../styles/pages/home.css'
 import { Link } from "react-router-dom";
 
+import { Icon } from '@iconify/react';
+
 import heroImg from '../assets/images/6159DFF7-3339-4F39-A55F-5DC1D7F73227.jpg'
 import shopImg from '../assets/images/1AA4F7F2-C88C-41FA-91C3-F3A977516F8D.jpg'
 
@@ -14,14 +16,25 @@ export default function Home(){
         <>
             <section id='Hero1'>
                 <div className="imgHero">
+                    {/* <div className="moveLink">
+
+                    </div> */}
                     <img src={heroImg} alt="" />
                 </div>
                 <div className="socials_home">
-                    <div className="socialBoxes"></div>
-                    <div className="socialBoxes"></div>
-                    <div className="socialBoxes"></div>
-                    <div className="socialBoxes"></div>
-                    <div className="socialBoxes"></div>
+                    <div className="socialBoxes">
+                         <Icon icon="skill-icons:instagram" width="30" />
+                    </div>
+                    <div className="socialBoxes">
+                         <Icon icon="logos:tiktok-icon" width="28" />
+
+                    </div>
+                    <div className="socialBoxes">
+                        <Icon icon="logos:youtube-icon" width="30" />
+                    </div>
+                    <div className="socialBoxes">
+                        <Icon icon="logos:twitter" width="30" />
+                    </div>
                 </div>
             </section>
 
@@ -41,9 +54,12 @@ export default function Home(){
                         <Link to='https://paystack.shop/princess-jecoco'><button>View Store</button></Link>
                     </div>
                     <div className="shopButtom_info">
+                        <div className="shopWrap">
                         <StoreCard img={store1} header='Ogini' dis=' ' to='https://paystack.shop/princess-jecoco?product=ogini-t-shirt-wzjvfe'/>
                         <StoreCard img={store2} header='Igbo Amaka ' dis=' ' to='https://paystack.shop/princess-jecoco'/>
                         <StoreCard img={store3} header='Period dot ... ' dis=' ' to='https://paystack.shop/princess-jecoco?product=period-dot-on-capslock-t-shirt-qqcjgi'/>
+                    
+                        </div>
                     </div>
                 </div>
             </section>
