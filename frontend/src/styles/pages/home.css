@@ -56,8 +56,9 @@ section{
     gap: 100px;
 }
 .shopButtom_info .shopWrap{
+    
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     gap: 100px;
 }
 #youtube-hero{
@@ -138,5 +139,7 @@ section{
         display: flex;
         gap: 70px;
         padding: 0 30px;
+    justify-content: left;
+
     }
 }
