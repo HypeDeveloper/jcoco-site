@@ -115,7 +115,9 @@
 .workimg-info img{
     width: 100%;
 }
-
+.mobileImg{
+    display: none;
+}
 @media screen and (max-width: 600px) {
     .wrap-work {
         display: block;
