@@ -30,7 +30,7 @@
 
 button{
     padding: 10px  21px;
-    background: black;
+    background:linear-gradient(90deg, #ef8f56, #ecbb41  );
     font-size: 1.2rem;
     font-weight: 500;
     color: white
@@ -101,8 +101,9 @@ button{
 
 
 @media screen and (max-width: 500px) {
-    body{
-        /* zoom: 99%; */
+    .headerLogo{
+        font-size: 1.3rem;
+        font-weight: 500;
     }
     .headerMain{
         font-size: 4rem;

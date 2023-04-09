@@ -1,4 +1,5 @@
 import '../styles/pages/socials.css'
+import { Link } from "react-router-dom";
 export default function Socials(){
     return(
         <>
@@ -14,21 +15,23 @@ export default function Socials(){
             <section id='social-list'>
                 <div className="wrap-socialInfo">
                     <p className="text text-width-300 al-text-right">
-                    happily married to the most supportive man and we have 2 beautiful energeti
+                        You can reach out to me on the following platforms
                     </p>
                     <div className="linepart"></div>
                     <div className="socialBox">
-                        <h1 className="headerMain">
+                        <h1 className="headerMain line">
+                            <Link to=''>
                             Instagram
+                            </Link>
                         </h1>
                         <h1 className="headerMain">
-                            Youtube
+                            <Link to='https://www.youtube.com/@princessjecoco'>Youtube</Link>
                         </h1>
                         <h1 className="headerMain">
-                            TikTok
+                            <Link to=''>TikTok</Link>
                         </h1>
                         <h1 className="headerMain">
-                            Twitter
+                            <Link to=''>Twitter</Link>
                         </h1>
                     </div>
                 </div>

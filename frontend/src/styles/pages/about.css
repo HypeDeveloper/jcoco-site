@@ -4,6 +4,9 @@
     justify-content: center;
     align-items: center;
 }
+.mobileImg{
+    display: none;
+}
 .umu-wrap{
     display:flex;
     justify-content: space-between;
@@ -115,9 +118,7 @@
 .workimg-info img{
     width: 100%;
 }
-.mobileImg{
-    display: none;
-}
+
 @media screen and (max-width: 600px) {
     .wrap-work {
         display: block;
@@ -155,7 +156,7 @@
     }
     .videoMashup {
         height: 400px;
-        width: 100VW;
+        width: 93vw;
     }
     .mobileImg{
         position: absolute;
@@ -165,6 +166,7 @@
         width: 100%;
         z-index: -1;
         overflow: hidden;
+        display: block;
     }
     .mobileImg img{
         width: 140%;

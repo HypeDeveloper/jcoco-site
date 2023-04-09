@@ -57,7 +57,7 @@ export default function AboutMe() {
                             of Fame
                         </h1> <br />
                         <p className='text text-width-500'>
-                            happily married to the most supportive man and we have 2 beautiful energetic kids together who mean the whole world to me . One is an actual celebrity lol
+                            {/* info */}
                         </p>
                     </div>
                     <div className="info-vid">
@@ -77,12 +77,10 @@ export default function AboutMe() {
                             you
                         </h1>
                         <br />
-                        <p className="text">
-                            More info about the product a short one would be needed
-                        </p>
+                        
                         <br />
                         <p className="text">
-                            happily married to the most supportive man and we have 2 beautiful energetic kids together who mean the whole world to me . One is an actual celebrity lol
+                            {/* happily married to the most supportive man and we have 2 beautiful energetic kids together who mean the whole world to me . One is an actual celebrity lol */}
                         </p>
                     </div>
                     <div className="workimg-info">

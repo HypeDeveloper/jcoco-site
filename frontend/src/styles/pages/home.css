@@ -9,22 +9,37 @@ section{
 }
 .moveLink{
     position: absolute;
-    top: 120px;
-    right: 120px;
-    background: black;
+    top: 150px;
+    right: 150px;
+    /* background: black; */
     height: 180px;
     width: 180px;
 }
+.moveLink img{
+    color: white;
+} 
 .imgHero img{
     width: 100%;
 }
 .socials_home{
-    background: white;
+    background: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
     height: 10vh;
+    color: white;
+}
+.socials_home h3{
+    font-weight: 500;
+}
+.social-link-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 10vh;
+    color: white;
 }
 .socialBoxes{
     height: 30px;
@@ -96,6 +111,14 @@ section{
 
 
 @media screen and (max-width: 600px) {
+    .socials_home{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: fit-content;
+        gap: 0;
+        padding-top: 20px;
+    }
     .shopMain_img{
         display: none;
     }
@@ -110,7 +133,7 @@ section{
     }
     .youtubeSpace {
         height: 350px;
-        width: 100vw;
+        width: 93vw;
     }
     .feed-info {
         padding: 20px 30px 20px;
@@ -128,7 +151,7 @@ section{
         height: 100%;
     }
     .shopButtom_info{
-        padding: 300px 0 100px;
+        padding: 120px 0 100px;
         display: block;
         gap: 100px;
         width: 300px;

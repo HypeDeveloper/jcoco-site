@@ -15,11 +15,11 @@ export function StoreCard(props){
                         {props.dis || 'More info about the product a short one would be needed'}
                     </p>
                 </div>
-                <Link to={props.to}>
+                {/* <Link to={props.to}>
                     <button className="full-bttn">
                         View Product
                     </button>
-                </Link>
+                </Link> */}
             </div>
         </>
     )
