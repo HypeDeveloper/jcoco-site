@@ -39,7 +39,7 @@ function App(){
 function Layout(){
   return(
     <>
-      {/* <MainLoading/> */}
+      <MainLoading/>
       <NavBar/>
       <Outlet/>
     </>
