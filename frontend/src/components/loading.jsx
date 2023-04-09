@@ -26,3 +26,21 @@ export function MainLoading(){
         </>
     )
 }
+
+export function Footer(){
+    return(
+        <>
+            <div className="footer">
+        <p className="text_Normal">Princess Jecoco</p>
+        <div className="company">
+            <p className="text_Normal">
+                First Class Pilot
+            </p>
+            <p className="text_Normal">
+                2023
+            </p>
+        </div>
+    </div>
+        </>
+    )
+}

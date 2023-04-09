@@ -1,168 +1,261 @@
-section{
-    position: relative;
-    overflow: hidden;
-}
-.imgHero{
-    position: relative;
+.hero{
     height: 100vh;
-    overflow: hidden;
-}
-.moveLink{
-    position: absolute;
-    top: 150px;
-    right: 150px;
-    /* background: black; */
-    height: 180px;
-    width: 180px;
-}
-.moveLink img{
-    color: white;
-} 
-.imgHero img{
-    width: 100%;
-}
-.socials_home{
-    background: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
-    height: 10vh;
-    color: white;
+    text-align: center;
 }
-.socials_home h3{
-    font-weight: 500;
-}
-.social-link-wrap{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    height: 10vh;
-    color: white;
-}
-.socialBoxes{
-    height: 30px;
-    display: flex;
-    align-items: center;
-    width: 30px;
-    /* background: black; */
+.text_Hero_trans{
+    /* transform: translateY(50px); */
 }
 
-.shopTop_info{
-    padding: 100px 100px 0;
-}
-.shopMain_img{
+.socials_hero{
     position: absolute;
-    overflow: hidden;
-    top: -80px;
-    height: 700px;
-    width: 900px;
+    bottom: 20px;
+    display: flex;
+    gap: 20px;
+}
+.social_boxes{
+    height: 35px;
+    width: 35px;
     background: black;
-    right: -170px;
-    z-index: -1;
-    transform: rotateZ(10deg);
 }
-.shopMain_img img{
+
+.back_bg{
+    height: 100vh;
+    position: absolute;
     width: 100%;
+    background: black;
+    /* transform: translateX(30px); */
+    top: 0;
+    z-index: -1;
 }
-.shopButtom_info{
-    padding: 300px 0 100px;
-    gap: 100px;
+
+.aboutSection{
+    margin-top: 60px;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    color: white;
 }
-.shopButtom_info .shopWrap{
-    
+.aboutImg{
     display: flex;
     justify-content: center;
-    gap: 100px;
+    margin-top: 80px;
 }
-#youtube-hero{
-    text-align: center;
+.img_about_wrap{
+    height: 40vh;
+    width: 90vw;
+    background: white;
+}
+
+.textSection_about{
+    /* width: 87vw; */
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding-top: 100px;
 }
-.youtube-info{
-    text-align: center;
+.store_img{
+    top: 20px;
+    right: -40px;
+    position: absolute;
+    overflow: hidden;
+    height: 350px;
+    width: 300px;
+    transform: rotateZ(8deg);
+}
+.store_img img{
     width: 500px;
-    display: flex;
-    flex-direction: column;
 }
-.youtubeSpace{
-    height: 400px;
-    width: 800px;
-    background: black;
-    margin-bottom: 120px;
-    margin-top: 70px;
+
+.storeSection{
+    margin-top: -40px;
+    width: 100vw;
+    height: fit-content;
+    overflow-x: hidden;
 }
-.youtubeSpace iframe{
-    width: 100%;
-    height: 100%;
+
+.info_Store{
+    padding: 60vh 30px 0;
+
 }
-.buttonHandle{
+
+.info_Store p{
+    width: 250px;
+}
+.info_Store h1{
+    margin-top: 20px;
+}
+.info_Store button{
     margin-top: 30px;
 }
 
-.feed-info{
-    padding: 100px 100px 20px;
-    width: 500px;
+
+.storeCards_Slide{
+    width: 98vw;
+    overflow-x: scroll;
+    margin: 80px 0 100px;
+    padding-bottom: 30px;
+}
+.card_wrap{
+    width: fit-content;
+    margin-left: 60px;
+    display: flex;
+    gap: 30px;
 }
 
 
-@media screen and (max-width: 600px) {
-    .socials_home{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        height: fit-content;
-        gap: 0;
-        padding-top: 20px;
-    }
-    .shopMain_img{
-        display: none;
-    }
-    .shopTop_info {
-        padding: 100px 25px 0;
-    }
-    .shopButtom_info {
-        padding: 180px 0 100px;
-    }
-    .youtube-info {
-        width: 300px;
-    }
-    .youtubeSpace {
-        height: 350px;
-        width: 93vw;
-    }
-    .feed-info {
-        padding: 20px 30px 20px;
-        width: 300px;
-    }
-    .feeds-acu {
-        width: 90vw;
-        overflow-x: scroll;
-        margin: 40px 100px 50px;
-    }
-    .imgHero img{
-        margin-top: 80px;
-        width: initial;
-        transform: translateX(-60px);
-        height: 100%;
-    }
-    .shopButtom_info{
-        padding: 120px 0 100px;
-        display: block;
-        gap: 100px;
-        width: 300px;
-    }
-    .shopButtom_info .shopWrap{
-        width: 90vw;
-        overflow-x: scroll;
-        display: flex;
-        gap: 70px;
-        padding: 0 30px;
-    justify-content: left;
+.youtubeSection{
+    margin: -80px 0 80px;
+}
+.youtube_img{
+    top: 20px;
+    left: -40px;
+    position: absolute;
+    overflow: hidden;
+    height: 350px;
+    width: 300px;
+    transform: rotateZ(-8deg);
+}
+.youtube_img img{
+    width: 500px;
+}
 
+.youtube_info{
+    /* position: absolute; */
+    right: 0;
+    padding: 60vh 30px 0;
+}
+.youtubeEbm{
+    display: flex;
+    justify-content: center;
+    margin-top: 12vh;
+}
+.you_wrap{
+    height: 36vh;
+    width: 87vw;
+    background: black;
+}
+.youtube_info button{
+margin-top: 30px;
+}
+.textSection_about p{
+    padding: 40px 30px 0;
+}
+
+@media screen and (min-width: 800px) {
+    .img_about_wrap{
+        height: 80vh;
+        width: 60vw;
+    }
+    .back_bg{
+        height: inherit;
+        position: absolute;
+        width: 100%;
+        background: black;
+        /* transform: translateX(30px); */
+        top: 0;
+        z-index: -1;
+    }
+    .aboutSection{
+        margin-top: 90px;
+        position: relative;
+        height: 150vh;
+        width: 100vw;
+        overflow: hidden;
+        color: white;
+    }
+    .aboutImg{
+        display: flex;
+        justify-content: center;
+        margin-top: 150px;
+    }
+    .textSection_about{
+        /* padding: 0 10vw ; */
+        display: flex;
+    }
+    .textSection_about p{
+        width: 440px;
+    }
+
+    .store_img{
+        top: 60px;
+        right: -40px;
+        position: absolute;
+        overflow: hidden;
+        height: 550px;
+        width: 700px;
+        transform: rotateZ(5deg);
+    }
+    .store_img img{
+        width: 100%;
+    }
+    .storeSection{
+        margin-top: -86px;
+        width: 100vw;
+        height: fit-content;
+        overflow-x: hidden;
+    }
+    .info_Store{
+        padding: 30vh 120px 0;
+    
+    }
+    .info_Store .text_Header{
+        width: 400px;
+        margin-top: 20px;
+        font-size: 5rem;
+    }
+    .storeCards_Slide{
+        display: flex;
+        justify-content: center;
+        width: 98vw;
+        overflow-x: hidden;
+        margin: 130px 0 100px;
+        padding-bottom: 30px;
+    }
+    .card_wrap{
+        width: fit-content;
+        margin-left: 60px;
+        display: flex;
+        gap: 80px;
+    }
+    .youtube_img{
+        top: 60px;
+        left: -70px;
+        position: absolute;
+        overflow: hidden;
+        height: 550px;
+        width: 700px;
+        transform: rotateZ(-5deg);
+    }
+    .youtube_img img{
+        width: 100%;
+    }
+    .mainyo{
+        display: flex;
+        justify-content: right;
+        width: 500px;
+    }
+    .youtube_info .text_Header{
+        width: 400px;
+        margin-top: 20px;
+        font-size: 5rem;
+    }
+    .youtube_info{
+        position: absolute;
+        right: 0;
+        padding: 30vh 30px 0;
+        width: 500px;
+    }
+    .you_wrap{
+        height: 56vh;
+        width: 67vw;
+        background: black;
+    }
+    .youtubeEbm{
+        display: flex;
+        justify-content: center;
+        padding-top: 100vh;
     }
 }

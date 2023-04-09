@@ -1,35 +1,33 @@
 .StoreImg{
-    height: 250px;
-    width: 250px;
-    background: rgb(251, 251, 251);
-    box-shadow: 1px 1px 30px 10px rgba(0, 0, 0, 0.135);
+    height: 280px;
+    width: 260px;
+    background: rgb(0, 0, 0);
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .StoreImg img{
-    zoom: 20%;
 }
 .StoreCard{
-    width: 250px;
+    width: 260px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+    /* align-items: center; */
+    text-align: left;
 }
-
-@media screen and (max-width: 600px) {
-    .StoreImg{
-        height: 250px;
-        width: 300px;
-    }
-    .StoreCard{
-        width: 280px;
-        zoom: 94%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
+.storeText .subHeader{
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-top: -8px;
+}
+.storeText .text{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.line{
+    width: 100%;
+    height: 2px;
+    background: black;
+    margin: 20px 0 12px;
 }

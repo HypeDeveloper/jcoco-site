@@ -2,6 +2,7 @@ import '../styles/pages/about.css'
 import hero1img from '../assets/images/75B6791F-BA0E-4C81-89CF-4BFE5CF6F17C.jpg'
 import hero2img from '../assets/images/alaye230.jpg'
 import hero3img from '../assets/images/EEE32334-A1C0-4193-9105-B78C90A07408 2.jpg'
+import Socials from './socials'
 export default function AboutMe() {
     return (
         <>
@@ -20,7 +21,7 @@ export default function AboutMe() {
                 <div className="umu-wrap">
 
                     <div className="text-box">
-                        <h1 className="headerMain about_text text-width-300">
+                        <h1 className="text_header about_text text-width-300">
                             The
                             Energy
                             Queen
@@ -68,26 +69,7 @@ export default function AboutMe() {
                 </div>
             </section>
 
-            <section id="workWith">
-                <div className="wrap-work">
-                    <div className="info-workWith text-width-500">
-                        <h1 className="headerMain">
-                            Open to <br />
-                            work with <br />
-                            you
-                        </h1>
-                        <br />
-                        
-                        <br />
-                        <p className="text">
-                            {/* happily married to the most supportive man and we have 2 beautiful energetic kids together who mean the whole world to me . One is an actual celebrity lol */}
-                        </p>
-                    </div>
-                    <div className="workimg-info">
-                        <img src={hero3img} alt="" />
-                    </div>
-                </div>
-            </section>
+            <Socials/>
         </>
     )
 }

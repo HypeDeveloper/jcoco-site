@@ -8,18 +8,14 @@ export function StoreCard(props){
                   <img src={props.img} alt=""/>  
                 </div>
                 <div className="storeText">
+                <div className="line"></div>
                     <p className="subHeader ">
-                       {props.header || 'Product Name'} <br /> T-shirt
+                       {props.header || 'Product Name'}
                     </p>
                     <p className="text pad-b-2">
                         {props.dis || 'More info about the product a short one would be needed'}
                     </p>
                 </div>
-                {/* <Link to={props.to}>
-                    <button className="full-bttn">
-                        View Product
-                    </button>
-                </Link> */}
             </div>
         </>
     )

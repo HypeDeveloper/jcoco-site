@@ -1,41 +1,31 @@
 import '../styles/pages/socials.css'
 import { Link } from "react-router-dom";
+import { Footer } from '../components/loading';
+import round from '../assets/images/Asset 1.svg'
+
 export default function Socials(){
     return(
         <>
             <section className="socials">
+                
                 <div className="infoHeader">
                     <h1 className="headerMain">
-                    Available   <br />
-                    On
+                        Open To 
+                        Work With You
                     </h1>
-                </div>
-            </section>
-
-            <section id='social-list'>
-                <div className="wrap-socialInfo">
-                    <p className="text text-width-300 al-text-right">
-                        You can reach out to me on the following platforms
+                    <p className="text_Normal">
+                        Your can reach Jecoco on the following Platforms
                     </p>
-                    <div className="linepart"></div>
-                    <div className="socialBox">
-                        <h1 className="headerMain line">
-                            <Link to=''>
-                            Instagram
-                            </Link>
-                        </h1>
-                        <h1 className="headerMain">
-                            <Link to='https://www.youtube.com/@princessjecoco'>Youtube</Link>
-                        </h1>
-                        <h1 className="headerMain">
-                            <Link to=''>TikTok</Link>
-                        </h1>
-                        <h1 className="headerMain">
-                            <Link to=''>Twitter</Link>
-                        </h1>
-                    </div>
+                    <div className="socials_hero">
+                    <div className="social_boxes"></div>
+                    <div className="social_boxes"></div>
+                    <div className="social_boxes"></div>
+                    <div className="social_boxes"></div>
+                </div>
                 </div>
             </section>
+            <Footer/>
         </>
     )
 } 
+

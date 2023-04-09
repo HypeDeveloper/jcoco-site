@@ -1,26 +1,8 @@
-.infoHeader{
-    padding: 20vh 120px 50px;
+.socials{
+    background: orangered;
+    position: initial;
+    height: 90vh;
 }
-.infoHeader h1{
-    font-size: 6rem;
-    font-weight: 700;
-}
-.linepart{
-    height: 210px;
-    width: 5px;
-    background: black;
-    margin: 0 50px;
-}
-#social-list{
-    display: flex;
-    margin-left: 150px;
-}
-.wrap-socialInfo{
-    display: flex;
-    justify-content: center;
-}
-
-@media screen and (max-width: 600px){
     .infoHeader h1{
         font-size: 4rem;
         font-weight: 700;
@@ -40,4 +22,32 @@
         width: 0px;
         margin: 60px 50px;
     }
-}
+
+    .infoHeader .socials_hero{
+        margin: 30px 0 50px;
+        position: initial;
+    }
+
+
+    @media screen and (min-width: 800px) {
+        .infoHeader{
+            padding: 20vh 20vh 20px;
+        }
+        .infoHeader h1{
+            font-size: 5rem;
+            font-weight: 700;
+            width: 600px;
+        }
+        .socials .moveBox_circle{
+            width: 250px;
+            height: 250px;
+            background: black;
+            position: absolute;
+            right: 40vh;
+            top: 40vh;
+            border-radius: 200px;
+        }
+        .moveBox_circle img{
+            color: black;
+        }
+    }
