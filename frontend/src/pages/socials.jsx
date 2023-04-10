@@ -10,8 +10,7 @@ export default function Socials() {
 
                 <div className="infoHeader">
                     <h1 className="headerMain">
-                        Open To
-                        Work With You
+                        Twitter <br /> And Instagram Posts
                     </h1>
                     <p className="text_Normal">
                         Your can reach Jecoco on the following Platforms
