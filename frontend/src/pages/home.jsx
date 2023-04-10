@@ -78,9 +78,9 @@ export default function Home() {
                     <p className="text_Normal">
                         I’m a Lawyer with a Masters degree in Oil & Gas law. I am a Hotelier & I’m the Managing director of Sefcon group of hotels, a Brand Ambassador , an Influencer  and a YouTuber.
                     </p>
-                    <div className="moveBox_circle">
+                    <Link to={'/umuAsa'}> <div className="moveBox_circle">
                         <img src={round} alt="" />
-                    </div>
+                    </div></Link>
                 </div>
             </section>
 

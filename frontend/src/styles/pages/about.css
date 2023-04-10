@@ -1,184 +1,70 @@
-#umu-about{
-    /* height: 100vh; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.text-box{
+    margin-top: 160px;
+    padding: 30px 30px 70px;
 }
-.mobileImg{
-    display: none;
+.text_header{
+    font-size: 5rem;
 }
-.umu-wrap{
-    display:flex;
-    justify-content: space-between;
-    zoom: 95%;
-}
-
-.aboutImg1{
-    top: 2800;
-    left: -160px;
-    position: absolute;
-    height: 560px;
-    width: 550px;
+.wrapAbl_img{
+    height: 340px;
+    width: 280px;
     background: black;
-    transform: translateY(50px);
-
-}
-.aboutImg1 img{
-    width: 100%;
-}
-.aboutImg2{
-    bottom: 0;
-    right: -160px;
-    position: absolute;
-    height: 480px;
-    width: 510px;
-    background: black;
-    transform: translateY(80px);
     overflow: hidden;
 }
-.aboutImg2 img{
-    transform: translateX(-130px) translateY(-100px);
-    width: 100%;
+.Album{
+    margin-bottom: 100px;
+    width: 96vw;
+    overflow: scroll;
 }
-.text-box{
-    width: 380px;
-    margin: 30px 70px 0;
-    zoom: 110%;
+.Alb_img{
+    width: 280px;
 }
-.img2-about{
-    height: 500px;
-    width: 360px;
-    background: black;
-    transform: translateY(100px);
+.Alb_img p{
+    font-size: 1.6rem;
+    width: inherit;
 }
-
-.about_text{
-    font-size: 6rem;
-    margin-top: 84vh;
-    margin-bottom: 20px;
-}
-
-.slideInfo{
-    width: 400px;
-}
-.wrap-umu{
-    margin-left: 150px;
-}
-
-#umu-SlideShow{
+.Abl_warp{
     display: flex;
-    align-items: center;
-    height: 100vh;
+    padding-right: 60px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    gap: 20px;
+    width: fit-content;
 }
-
-.frameHall-about{
-    display: flex;
-    justify-content: center;
-}
-.info-wrap-hall{
-    text-align: center;
-}
-.videoMashup{
-    height: 400px;
-    width: 800px;
-    background: black;
-    margin-bottom: 120px;
-    margin-top: 70px;
-}
-.videoMashup iframe{
-    width: 100%;
-    height: 100%;
-}
-
-/* info-wrap-hall */
-#workWith{
-    padding-top: 120px;
-}
-.info-wrap{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-.info-vid{
-    display: flex;
-    justify-content: center;
-}
-
-.wrap-work{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 80px 120px 70px;
-}
-.workimg-info{
-    height: 400px;
-    width: 380px;
-    background: black;
-}
-.workimg-info img{
+.wrapAbl_img img{
     width: 100%;
 }
 
-@media screen and (max-width: 600px) {
-    .wrap-work {
-        display: block;
-        margin: 80px 20px 70px;
-    }
-    .workimg-info {
-       display: none;
-    }
-    #workWith {
-        padding-top: 0px;
-        margin-top: -50px;
-    }
-    .wrap-umu {
-        margin-left: 20px;
-    }
-    .slideInfo {
-        width: 300px;
-    }
-    .aboutImg1, .aboutImg2 {
+@media screen and (min-width: 800px) {
+    .Album::-webkit-scrollbar{
         display: none;
     }
-    .umu-wrap {
-        display: block;
-        justify-content: space-between;
+    .Album{
+        margin-bottom: 100px;
+        width: 96vw;
+        overflow: scroll;
+        padding-left: 80px;
     }
-    #umu-about {
-        /* height: 100vh; */
-        display: block;
+    .umu-about{
+        padding: 20vw;
     }
-    .text-box {
-        width: 320px;
-        margin: 30px 25px 0;
-        zoom: 110%;
+    .text-box{
+        margin-top: 160px;
+        padding: 30px 80px 70px;
     }
-    .videoMashup {
-        height: 400px;
-        width: 93vw;
-    }
-    .mobileImg{
-        position: absolute;
-        top :0;
-        height: 100vh;
-        /* background: rgb(190, 190, 190); */
-        width: 100%;
-        z-index: -1;
+    .wrapAbl_img{
+        height: 540px;
+        width: 480px;
+        background: black;
+       
         overflow: hidden;
-        display: block;
     }
-    .mobileImg img{
-        width: 140%;
-
-    }
-    .umu-wrap{
-        display:flex;
-        justify-content: space-between;
-        /* zoom: 95%; */
-        /* margin-top: 200px; */
-    }
-    .umu-wrap .text-box h1{
-        font-size: 6rem;
-        font-weight: 700;
+    .Abl_warp{
+        display: flex;
+        padding-right: 60px;
+        padding-left: 40px;
+        padding-bottom: 40px;
+        gap: 20VW;
+        width: fit-content;
     }
 }
