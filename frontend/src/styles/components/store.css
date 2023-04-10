@@ -1,13 +1,14 @@
 .StoreImg{
     height: 280px;
     width: 260px;
-    background: rgb(0, 0, 0);
+    background: rgb(225, 225, 225);
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .StoreImg img{
+    width: 80%;
 }
 .StoreCard{
     width: 260px;

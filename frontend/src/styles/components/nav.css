@@ -19,6 +19,9 @@ nav{
     /* height: 13vh; */
     overflow: hidden;
     top: 0;
+    transform: translateY(-100px);
+
+    animation: downNav 1s  3.9s forwards  ease-in-out;
     /* box-sizing: content-box; */
 }
 .logoTitle{
@@ -94,6 +97,17 @@ nav{
         height: 50px;
         overflow: hidden;
         transform: translateY(4px);
+
+    }
+}
+
+
+@keyframes downNav {
+    0%{
+        transform: translateY(-100px);
+    }
+    100%{
+        transform: translateY(0px);
 
     }
 }

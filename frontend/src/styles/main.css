@@ -49,10 +49,10 @@ button{
     justify-content: center;
     z-index: 1000000;
     zoom: 90%;
+    top: 0;
     transform: translateY(-20px);
 }
 .vi{
-    height: 600px;
     width: 600px;
     overflow: hidden;
 }
@@ -159,6 +159,7 @@ button{
 }
 section{
     position: relative;
+    background-color: white;
 }
 .moveBox_circle{
     width: 120px;
@@ -166,8 +167,9 @@ section{
     background: black;
     position: absolute;
     right: 20px;
-    top: 50px;
+    top: 150vh;
     border-radius: 200px;
+    animation: round 3s  0s  infinite  ease-in-out;
 }
 .moveBox_circle img{
     color: black;
@@ -208,12 +210,13 @@ button{
 .footer p{
     font-size: 1rem;
 }
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
 
 @media screen and (min-width: 800px) {
-    body{
-        width: 100vw;
-        overflow-x: hidden;
-    }
+    
     .moveBox_circle{
         width: 220px;
         height: 220px;
@@ -247,3 +250,15 @@ button{
     }
 }
 
+
+@keyframes round {
+    0%{
+        transform: rotateZ(0deg);
+    }
+    50%{
+        transform: rotateZ(60deg);
+    }
+    100%{
+        transform: rotateZ(0deg);
+    }
+}

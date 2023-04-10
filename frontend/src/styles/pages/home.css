@@ -4,9 +4,18 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    width: 100vw;
 }
 .text_Hero_trans{
-    /* transform: translateY(50px); */
+    transform: translateY(100px);
+    animation: upText 1s  3s forwards  ease-in-out;
+}
+.you_wrap iframe{
+    width: 100%;
+    height: 100%;
 }
 
 .socials_hero{
@@ -18,11 +27,13 @@
 .social_boxes{
     height: 35px;
     width: 35px;
-    background: black;
+    display: flex;
+    align-items: center;
 }
 
 .back_bg{
-    height: 100vh;
+    margin-top: 120vh;
+    height: inherit;
     position: absolute;
     width: 100%;
     background: black;
@@ -32,12 +43,13 @@
 }
 
 .aboutSection{
-    margin-top: 60px;
+    padding-top: 120vh;
     position: relative;
-    height: 100vh;
+    height: 130vh;
     width: 100vw;
-    overflow: hidden;
+    /* overflow: hidden; */
     color: white;
+    background: none;
 }
 .aboutImg{
     display: flex;
@@ -47,6 +59,7 @@
 .img_about_wrap{
     height: 40vh;
     width: 90vw;
+    overflow: hidden;
     background: white;
 }
 
@@ -55,6 +68,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    /* transform: translateY(-80px); */
 }
 .store_img{
     top: 20px;
@@ -107,7 +121,9 @@
 
 
 .youtubeSection{
-    margin: -80px 0 80px;
+    height: 180vh;
+    padding-bottom: 80px;
+    margin: -80px 0 0px;
 }
 .youtube_img{
     top: 20px;
@@ -120,6 +136,7 @@
 }
 .youtube_img img{
     width: 500px;
+    transform: translateX(-70px);
 }
 
 .youtube_info{
@@ -133,18 +150,24 @@
     margin-top: 12vh;
 }
 .you_wrap{
-    height: 36vh;
-    width: 87vw;
+    height: 66vh;
+    width: 77vw;
     background: black;
 }
 .youtube_info button{
 margin-top: 30px;
 }
 .textSection_about p{
-    padding: 40px 30px 0;
+    padding: 90px 20px 0;
+}
+.img_about_wrap img{
+    width: 100%;
 }
 
 @media screen and (min-width: 800px) {
+    .textSection_about p{
+        padding: 60px 30px 0;
+    }
     .img_about_wrap{
         height: 80vh;
         width: 60vw;
@@ -161,7 +184,7 @@ margin-top: 30px;
     .aboutSection{
         margin-top: 90px;
         position: relative;
-        height: 150vh;
+        height: 180vh;
         width: 100vw;
         overflow: hidden;
         color: white;
@@ -231,6 +254,8 @@ margin-top: 30px;
     }
     .youtube_img img{
         width: 100%;
+    transform: translateX(0px);
+        
     }
     .mainyo{
         display: flex;
@@ -257,5 +282,15 @@ margin-top: 30px;
         display: flex;
         justify-content: center;
         padding-top: 100vh;
+    }
+}
+
+@keyframes upText {
+    0%{
+        transform: translateY(100px);
+    }
+    100%{
+        transform: translateY(0px);
+
     }
 }
