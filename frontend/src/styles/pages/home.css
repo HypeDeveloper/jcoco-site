@@ -294,3 +294,8 @@ margin-top: 30px;
 
     }
 }
+
+.textSection_about .socials_hero{
+    margin-top: 30px;
+    position: static;
+}
