@@ -59,7 +59,7 @@ export default function NavBar() {
                             <Link to={'https://paystack.shop/princess-jecoco'}>Shop</Link>
                         </li>
                         <li className="navList">
-                            <Link to={'/socials'}>Socials</Link>
+                            <Link to={'/socials'}>Collaboration</Link>
                         </li>
                     </div>
 
@@ -73,7 +73,7 @@ export default function NavBar() {
                 <Link to={'/'} onClick={handleBuger} className="subHeader">Home</Link>
                 <Link to={'/umuAsa'} onClick={handleBuger} className="subHeader">Umu Asa</Link>
                 <Link to={'https://paystack.shop/princess-jecoco'} onClick={handleBuger} className="subHeader">Shop</Link>
-                <Link to={'/socials'} onClick={handleBuger} className="subHeader">Socials</Link>
+                <Link to={'/socials'} onClick={handleBuger} className="subHeader">Collaboration</Link>
             </div>
         </>
     )

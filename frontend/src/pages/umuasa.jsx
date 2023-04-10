@@ -3,7 +3,7 @@ import hero1img from '../assets/images/75B6791F-BA0E-4C81-89CF-4BFE5CF6F17C.jpg'
 import hero2img from '../assets/images/alaye230.jpg' 
 import hero4img from '../assets/images/alaye 5.jpg' 
 import hero5img from '../assets/images/IMG_3362.jpg' 
-import hero6img from '../assets/images/alaye 5.jpg' 
+import hero6img from '../assets/images/F27E2940-54B2-403A-B306-46A8F16B3870.jpg' 
 import hero3img from '../assets/images/EEE32334-A1C0-4193-9105-B78C90A07408 2.jpg'
 import Socials from './socials'
 export default function AboutMe() {
@@ -24,12 +24,13 @@ export default function AboutMe() {
 
                 <div className="Album">
                     <div className="Abl_warp">
+                    <CardsImg img={hero6img} text=''/>
+
                         <CardsImg img={hero1img} text=''/>
                         <CardsImg img={hero2img} text=''/>
                         <CardsImg img={hero3img} text=''/>
                         <CardsImg img={hero4img} text=''/>
                         <CardsImg img={hero5img} text=''/>
-                        <CardsImg img={hero6img} text=''/>
                     </div>
                 </div>
             </section>
